@@ -15,20 +15,7 @@ Implemented models:
 
 ## Project Structure
 
-Code_predict_house_price/
-├── dataset/
-│   └── kc_house_data.csv
-├── save_result.py
-├── main_regression.py
-└── result/
-    ├── LinearRegression/
-    ├── BayesianRidge/
-    ├── RandomForest/
-    ├── KNN/
-    ├── SVR/
-    ├── XGBoost/
-    ├── DNN/
-    └── Summary_Regression.xlsx
+<img width="447" height="391" alt="image" src="https://github.com/user-attachments/assets/c126f799-78c8-4751-acec-1cdb36d73a23" />
 
 ## Installation
 
