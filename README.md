@@ -18,20 +18,21 @@ The experiments include:
 
 ## Project Structure
 
+## Project Structure
 ```text
 HousePriceDNN/
-├── dataset/
-│   └── kc_house_data.csv
-├── result/
-├── DNN_5CV.py                 # DNN with 5-fold cross-validation
-├── main_DNN.py                # DNN training and independent testing
-├── DNN_SHAP.py                # SHAP-based interpretability analysis
-├── CNN.py                     # CNN model
-├── CNN_5CV.py                 # CNN with 5-fold cross-validation
-├── ablation_DNN.py            # DNN ablation study
-├── 5fold-ablation-DNN.py      # DNN ablation with 5-fold CV
-├── Ablation_ML.py             # ML ablation study
-├── 5fold_Ablation-ML.py       # ML ablation with 5-fold CV
+├── dataset/                    # Dataset
+├── result/                     # Experimental results
+├── 5fold-DNN-and-ablation.py   # 5-fold CV for DNN and ablation study
+├── 5fold_Ablation-ML.py        # 5-fold CV for ML ablation study
+├── Ablation_ML.py              # ML ablation experiments
+├── CNN.py                      # CNN model
+├── CNN_5DV.py                  # CNN cross-validation
+├── DNN_5CV.py                  # DNN with 5-fold cross-validation
+├── DNN_SHAP.py                 # SHAP-based interpretability analysis
+├── ablation_DNN.py             # DNN ablation experiments
+├── main_DNN.py                 # DNN training and independent testing
+├── save_result.py              # Save experimental results
 └── README.md
 ```
 ## Installation
