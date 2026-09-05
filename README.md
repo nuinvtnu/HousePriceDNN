@@ -16,13 +16,10 @@ The experiments include:
 
 ## Project Structure
 
-HousePriceDNN/
-
-├── dataset/
-
-│   └── kc_house_data.csv
-
-├── result/
+HousePriceDNN/ 
+├── dataset/ 
+│   └── kc_house_data.csv 
+├── result/ 
 ├── DNN_5CV.py # 5 fold cross-validation
 ├── main_DNN.py #buil model and independent test
 ├── DNN_SHAP.py
