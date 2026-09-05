@@ -14,6 +14,7 @@ The experiments include:
 **Deep Learning:** Deep Neural Network (DNN) and Convolutional Neural Network (CNN).
 
 ## Project Structure
+
 HousePriceDNN/
 ├── dataset/
 │   └── kc_house_data.csv
