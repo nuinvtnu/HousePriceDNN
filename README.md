@@ -11,6 +11,7 @@ The experiments include:
 
 ## Models
 **Machine Learning:** Linear Regression (LR), Bayesian Ridge (BR), KNN, Random Forest (RF), SVR, and XGBoost.
+
 **Deep Learning:** Deep Neural Network (DNN) and Convolutional Neural Network (CNN).
 
 ## Project Structure
