@@ -16,20 +16,24 @@ The experiments include:
 
 ## Project Structure
 
-HousePriceDNN/ 
-├── dataset/ 
-│   └── kc_house_data.csv 
-├── result/ 
-├── DNN_5CV.py # 5 fold cross-validation
-├── main_DNN.py #buil model and independent test
-├── DNN_SHAP.py
-├── CNN.py
-├── CNN_5CV.py
-├── ablation_DNN.py
-├── 5fold-ablation-DNN.py
-├── Ablation_ML.py
-├── 5fold_Ablation-ML.py
+## Project Structure
+
+```text
+HousePriceDNN/
+├── dataset/
+│   └── kc_house_data.csv
+├── result/
+├── DNN_5CV.py                 # DNN with 5-fold cross-validation
+├── main_DNN.py                # DNN training and independent testing
+├── DNN_SHAP.py                # SHAP-based interpretability analysis
+├── CNN.py                     # CNN model
+├── CNN_5CV.py                 # CNN with 5-fold cross-validation
+├── ablation_DNN.py            # DNN ablation study
+├── 5fold-ablation-DNN.py      # DNN ablation with 5-fold CV
+├── Ablation_ML.py             # ML ablation study
+├── 5fold_Ablation-ML.py       # ML ablation with 5-fold CV
 └── README.md
+```
 ## Installation
 pip install numpy pandas scikit-learn tensorflow xgboost shap matplotlib
 ## Running
